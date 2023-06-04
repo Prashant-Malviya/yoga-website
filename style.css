@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: url(dhyan.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 6px;
+    cursor: pointer;
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+.left img {
+    width: 126px;
+    height: 66px;
+}
+
+.left div {
+    text-align: center;
+    font-size: 35px;
+    color: blanchedalmond;
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+.mid {
+    /* border: 2px solid red; */
+    display: block;
+    width: 500px;
+    padding: 0 100px;
+    margin: 20px auto;
+}
+
+.mid nav li {
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    font-family: sans-serif;
+
+}
+
+.mid nav ul {
+    padding: 0 15px;
+    width: 560px;
+}
+
+.mid nav {
+    display: inline-block;
+    width: 550px;
+    position: relative;
+    right: 210px;
+}
+
+.mid a {
+    color: white;
+    text-decoration: none;
+}
+
+.mid nav ul li a {
+    padding: 0 8px
+}
+
+.right {
+    /* border: 2px solid black; */
+    /* display: inline-block; */
+    position: absolute;
+    top: 20px;
+    right: 23px;
+
+}
+
+.mid nav li a:hover,
+.mid nav li a.active {
+    text-decoration: underline;
+    color: blanchedalmond;
+}
+
+.btn {
+    font-family: sans-serif;
+    background-color:azure;
+    color: black;
+    margin: 0 5px;
+    width: 151px;
+    height: 38px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 3px solid #b1e5ff;
+    cursor: pointer;
+}
+.container button{
+    font-family: monospace;
+    background-color:#3b27cc;
+    color: white;
+    margin: 0 5px;
+    width: 422px;
+    height: 38px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 3px solid #6360ff;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.btn:hover {
+    border-radius: 20px;
+    background-color: rgb(255, 219, 171);
+    
+}
+.container button:hover{
+    border-radius: 20px;
+    background-color: rgb(255, 219, 171);
+    color: black;
+}
+
+.container {
+    border: 4px solid rgb(129 255 250);
+    margin: 149px 72px;
+    padding: 36px 101px;
+    width: 409px;
+    height: 450px;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 409px;
+    padding: 7px;
+    border: 2px solid black;
+    margin: 36px auto;
+    font-size: 25px;
+    border-radius:12px;
+    font-family: monospace;
+}
+
+
